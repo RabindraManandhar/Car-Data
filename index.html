@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Car Data</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <h1>Task 1</h1>
+
+  <p> Part I</p>
+  <p> Make an application which asks user:</p>
+  <p> -Registration Plate, Car Maker, Car Model, Price and Color.</p>
+  <p> Get the user input and create a new car object based on those properties.</p>
+  <p> Make array of added cars and show console table with array.</p>
+  <p> Part II</p>
+  <p> Create a function searchCar() that allows the user to search for a specific car based
+    on its license plate.</p>
+  <p> When the license plate is found, show on screen this car maker and car model.
+  <p> Part III</p>
+  <p> Create method carDiscount() for the car-object that returns a discounted price of the
+    car. The discounted price depends on the cost of the car. If the price is over 20000, the
+    discount is 25%, if the price is under 5000, discount is 10%, otherwise discount is 15%.
+  <p> Show the discount on the screen after adding new car.</p>
+
+      <h2>Solution</h2>
+
+      <p id="demo"></p>
+      <p id="demo1"></p>
+      <p id="demo2"></p>
+
+
+      <form name="form">
+
+
+        <label>Registration Plate</label>
+        <input type="text" name="registrationPlate" id="registrationplate">
+
+        <label>Car Maker</label>
+        <input type="text" name="Maker" id="maker">
+
+        <label>Car Model</label>
+        <input type="text" name="Model" id="model">
+
+        <label>Price</label>
+        <input type="number" name="Price" id="price">
+
+        <label>Color</label>
+        <input type="color" name="Color" id="color">
+
+      </form>
+      <button type="button" id="button1" onclick="addCar()">Add New Car</button>
+
+      <form name="searchForm">
+        <label>Search with registration number</label>
+        <input type="text" id="mySearch" placeholder="Registration Number">
+
+      </form>
+
+      <button type="button" id="button2" onclick="searchCar()">Search</button>
+
+      <button type="button" id="button3" onclick="carDiscount()">Final Price</button>
+
+
+      <script src="script.js"></script>
+</body>
+
+</html>

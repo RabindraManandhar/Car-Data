@@ -1,0 +1,5 @@
+Task 1
+
+- Ask from user license plate, car maker, car model, price and color.
+- Get the user input and create a new car object based on those properties.
+- Make array of added cars and show console table with array.

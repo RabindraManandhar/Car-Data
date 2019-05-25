@@ -1,0 +1,38 @@
+* {}
+
+body {
+  margin: 0;
+}
+
+h1, h2, h3 {
+  margin: 10px;
+}
+
+p {
+  margin: 10px;
+}
+
+form {
+  margin: 10px;
+}
+
+label {
+  display: block;
+}
+
+input {
+  display: block;
+  margin: 10px 0 10px 0;
+}
+
+button#button1 {
+  margin: 10px;
+}
+
+button#button2 {
+  margin: 10px;
+}
+
+button#button3 {
+  margin: 10px;
+}
